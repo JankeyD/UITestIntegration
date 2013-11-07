@@ -10,6 +10,18 @@
 
 
 /**
+ * Function logElementTree
+ */
+
+function showElementTree() {
+	var target = UIATarget.localTarget();
+	var app = target.frontMostApp();
+
+	app.logElementTree();
+}
+
+
+/**
  * Function testVideoPlaying  - tests if the video player is running
  * 
  */
@@ -75,7 +87,7 @@ function testMatchesCount(refCount) {
 	
 		target.delay(2);
 
-		//-- Tap on Bundesliga live tab 
+		//-- Tap on Spieltage/Videos tab 
 		testTabBarItem(app, "Spieltage/Videos", "12. Spieltag");
 		
 		target.delay(2);	
@@ -119,6 +131,43 @@ function testTeamsCount(refCount) {
 
 	});
 }
+
+
+/**
+ * Function testErinnerungen  - tests setting on / off Errinerungen
+ * 
+ * @param
+ */
+
+function testErinnerungen() {
+	test("Test Erinnerungen", function(target, app) {
+	
+		target.delay(2);
+
+		//-- Tap on Spieltage/Videos tab
+		testTabBarItem(app, "Spieltage/Videos", "12. Spieltag");
+		
+		target.delay(2);
+		
+		//-- Tap on Erinnerungen icon
+		var window = app.mainWindow();
+		window.collectionViews()[0].cells()[1].buttons()[0].tap();
+
+		//target.delay(2);
+
+		//-- Tap on Erinnerungen tab
+		testTabBarItem(app, "Erinnerungen", "Erinnerungen");
+
+		target.delay(5);
+
+		//-- Tap on Spieltage/Videos tab
+		testTabBarItem(app, "Spieltage/Videos", "12. Spieltag");
+		
+		target.delay(3);
+
+	});
+}
+
 
 
 

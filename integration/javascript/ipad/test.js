@@ -1,11 +1,13 @@
 #import "../tests_set_bundesLiga.js"
 
-// Calling the test functions from tests set for Bundesliga
+//-- Calling the test functions from tests set for Bundesliga
 
-testVideoPlaying();
+//testVideoPlaying();
 
-testTabBar();
+//testTabBar();
 
-testMatchesCount(9);
+//testMatchesCount(9);
 
-testTeamsCount(18);
+//testTeamsCount(18);
+
+testErinnerungen();
