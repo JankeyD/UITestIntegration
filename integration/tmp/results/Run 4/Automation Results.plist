@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>All Samples</key>
+	<array>
+		<dict>
+			<key>LogType</key>
+			<string>Pass</string>
+			<key>Message</key>
+			<string>Test video playing</string>
+			<key>Timestamp</key>
+			<date>2013-11-07T12:36:58Z</date>
+			<key>Type</key>
+			<integer>4</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Debug</string>
+			<key>Message</key>
+			<string>target.frontMostApp().mainWindow().buttons()["Play Icon Large"].tap()</string>
+			<key>Timestamp</key>
+			<date>2013-11-07T12:37:00Z</date>
+			<key>Type</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Debug</string>
+			<key>Message</key>
+			<string>target.captureRectWithName("{origin:{x:62.00,y:409.00}, size:{height:603.00,width:339.00}}", "screenShot0")</string>
+			<key>Timestamp</key>
+			<date>2013-11-07T12:37:05Z</date>
+			<key>Type</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Screenshot</string>
+			<key>Message</key>
+			<string>screenShot0</string>
+			<key>Screenshot</key>
+			<string>A5022E09-29D1-4163-837B-151F06079DCD</string>
+			<key>Timestamp</key>
+			<date>2013-11-07T12:37:05Z</date>
+			<key>Type</key>
+			<integer>8</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Debug</string>
+			<key>Message</key>
+			<string>target.captureRectWithName("{origin:{x:62.00,y:409.00}, size:{height:603.00,width:339.00}}", "screenShot1")</string>
+			<key>Timestamp</key>
+			<date>2013-11-07T12:37:05Z</date>
+			<key>Type</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Screenshot</string>
+			<key>Message</key>
+			<string>screenShot1</string>
+			<key>Screenshot</key>
+			<string>6FAB3FEC-B2C6-47D6-ACE6-D8A60EA66CD5</string>
+			<key>Timestamp</key>
+			<date>2013-11-07T12:37:05Z</date>
+			<key>Type</key>
+			<integer>8</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Default</string>
+			<key>Message</key>
+			<string>exitCode: 0</string>
+			<key>Timestamp</key>
+			<date>2013-11-07T12:37:09Z</date>
+			<key>Type</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Default</string>
+			<key>Message</key>
+			<string>stdout: Run 4</string>
+			<key>Timestamp</key>
+			<date>2013-11-07T12:37:09Z</date>
+			<key>Type</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Default</string>
+			<key>Message</key>
+			<string>stderr: </string>
+			<key>Timestamp</key>
+			<date>2013-11-07T12:37:09Z</date>
+			<key>Type</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Default</string>
+			<key>Message</key>
+			<string>Path of captured images: integration/tmp/results/Run 4/screenShot0.png</string>
+			<key>Timestamp</key>
+			<date>2013-11-07T12:37:09Z</date>
+			<key>Type</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Default</string>
+			<key>Message</key>
+			<string>Comparing the image with the reference one..2036.3 (0.0310719)</string>
+			<key>Timestamp</key>
+			<date>2013-11-07T12:37:10Z</date>
+			<key>Type</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Pass</string>
+			<key>Message</key>
+			<string>Video is playing.</string>
+			<key>Timestamp</key>
+			<date>2013-11-07T12:37:10Z</date>
+			<key>Type</key>
+			<integer>5</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Pass</string>
+			<key>Message</key>
+			<string>Test video playing</string>
+			<key>Timestamp</key>
+			<date>2013-11-07T12:37:10Z</date>
+			<key>Type</key>
+			<integer>5</integer>
+		</dict>
+	</array>
+	<key>version</key>
+	<integer>2</integer>
+</dict>
+</plist>

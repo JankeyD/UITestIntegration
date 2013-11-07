@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>All Samples</key>
+	<array>
+		<dict>
+			<key>LogType</key>
+			<string>Fail</string>
+			<key>Message</key>
+			<string>Test video playing</string>
+			<key>Timestamp</key>
+			<date>2013-11-07T14:03:59Z</date>
+			<key>Type</key>
+			<integer>4</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Debug</string>
+			<key>Message</key>
+			<string>target.frontMostApp().mainWindow().buttons()["Play Icon Large"].tap()</string>
+			<key>Timestamp</key>
+			<date>2013-11-07T14:04:01Z</date>
+			<key>Type</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Debug</string>
+			<key>Message</key>
+			<string>target.captureRectWithName("{origin:{x:62.00,y:409.00}, size:{height:603.00,width:339.00}}", "screenShot0")</string>
+			<key>Timestamp</key>
+			<date>2013-11-07T14:04:07Z</date>
+			<key>Type</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Screenshot</string>
+			<key>Message</key>
+			<string>screenShot0</string>
+			<key>Screenshot</key>
+			<string>F405D3DD-98DB-4CCC-BD6F-5C717F3E408A</string>
+			<key>Timestamp</key>
+			<date>2013-11-07T14:04:07Z</date>
+			<key>Type</key>
+			<integer>8</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Debug</string>
+			<key>Message</key>
+			<string>target.captureRectWithName("{origin:{x:62.00,y:409.00}, size:{height:603.00,width:339.00}}", "screenShot1")</string>
+			<key>Timestamp</key>
+			<date>2013-11-07T14:04:07Z</date>
+			<key>Type</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Screenshot</string>
+			<key>Message</key>
+			<string>screenShot1</string>
+			<key>Screenshot</key>
+			<string>8B165A21-DBB1-4735-8791-E5631D3C7492</string>
+			<key>Timestamp</key>
+			<date>2013-11-07T14:04:07Z</date>
+			<key>Type</key>
+			<integer>8</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Default</string>
+			<key>Message</key>
+			<string>exitCode: 0</string>
+			<key>Timestamp</key>
+			<date>2013-11-07T14:04:11Z</date>
+			<key>Type</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Default</string>
+			<key>Message</key>
+			<string>stdout: Run 11</string>
+			<key>Timestamp</key>
+			<date>2013-11-07T14:04:11Z</date>
+			<key>Type</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Default</string>
+			<key>Message</key>
+			<string>stderr: </string>
+			<key>Timestamp</key>
+			<date>2013-11-07T14:04:11Z</date>
+			<key>Type</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Default</string>
+			<key>Message</key>
+			<string>Path of captured images: integration/tmp/results/Run 11/screenShot0.png</string>
+			<key>Timestamp</key>
+			<date>2013-11-07T14:04:11Z</date>
+			<key>Type</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Default</string>
+			<key>Message</key>
+			<string>Comparing the image with the reference one..0 (0)</string>
+			<key>Timestamp</key>
+			<date>2013-11-07T14:04:12Z</date>
+			<key>Type</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Fail</string>
+			<key>Message</key>
+			<string>Video is not playing.</string>
+			<key>Screenshot</key>
+			<string>17305A8B-6F11-450D-81F2-1C90069DDB17</string>
+			<key>Timestamp</key>
+			<date>2013-11-07T14:04:12Z</date>
+			<key>Type</key>
+			<integer>7</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Pass</string>
+			<key>Message</key>
+			<string>Test video playing</string>
+			<key>Timestamp</key>
+			<date>2013-11-07T14:04:12Z</date>
+			<key>Type</key>
+			<integer>5</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Pass</string>
+			<key>Message</key>
+			<string>Test Tab bar</string>
+			<key>Timestamp</key>
+			<date>2013-11-07T14:04:12Z</date>
+			<key>Type</key>
+			<integer>4</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Default</string>
+			<key>Message</key>
+			<string>Select the Tabellen tab.</string>
+			<key>Timestamp</key>
+			<date>2013-11-07T14:04:14Z</date>
+			<key>Type</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Debug</string>
+			<key>Message</key>
+			<string>target.frontMostApp().tabBar().buttons()["Tabellen"].tap()</string>
+			<key>Timestamp</key>
+			<date>2013-11-07T14:04:14Z</date>
+			<key>Type</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Default</string>
+			<key>Message</key>
+			<string>Select the Bundesliga live tab.</string>
+			<key>Timestamp</key>
+			<date>2013-11-07T14:04:18Z</date>
+			<key>Type</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Debug</string>
+			<key>Message</key>
+			<string>target.frontMostApp().tabBar().buttons()["Bundesliga live"].tap()</string>
+			<key>Timestamp</key>
+			<date>2013-11-07T14:04:18Z</date>
+			<key>Type</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Pass</string>
+			<key>Message</key>
+			<string>Test Tab bar</string>
+			<key>Timestamp</key>
+			<date>2013-11-07T14:04:22Z</date>
+			<key>Type</key>
+			<integer>5</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Pass</string>
+			<key>Message</key>
+			<string>Test count items</string>
+			<key>Timestamp</key>
+			<date>2013-11-07T14:04:22Z</date>
+			<key>Type</key>
+			<integer>4</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Default</string>
+			<key>Message</key>
+			<string>Select the Spieltage/Videos tab.</string>
+			<key>Timestamp</key>
+			<date>2013-11-07T14:04:24Z</date>
+			<key>Type</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Debug</string>
+			<key>Message</key>
+			<string>target.frontMostApp().tabBar().buttons()["Spieltage/Videos"].tap()</string>
+			<key>Timestamp</key>
+			<date>2013-11-07T14:04:24Z</date>
+			<key>Type</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Default</string>
+			<key>Message</key>
+			<string>Assert that the count of matches is 9</string>
+			<key>Timestamp</key>
+			<date>2013-11-07T14:04:26Z</date>
+			<key>Type</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Pass</string>
+			<key>Message</key>
+			<string>Test count items</string>
+			<key>Timestamp</key>
+			<date>2013-11-07T14:04:26Z</date>
+			<key>Type</key>
+			<integer>5</integer>
+		</dict>
+	</array>
+	<key>version</key>
+	<integer>2</integer>
+</dict>
+</plist>

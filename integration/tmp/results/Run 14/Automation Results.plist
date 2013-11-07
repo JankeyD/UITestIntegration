@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>All Samples</key>
+	<array>
+		<dict>
+			<key>LogType</key>
+			<string>Pass</string>
+			<key>Message</key>
+			<string>Test video playing</string>
+			<key>Timestamp</key>
+			<date>2013-11-07T14:28:39Z</date>
+			<key>Type</key>
+			<integer>4</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Debug</string>
+			<key>Message</key>
+			<string>target.frontMostApp().mainWindow().buttons()["Play Icon Large"].tap()</string>
+			<key>Timestamp</key>
+			<date>2013-11-07T14:28:41Z</date>
+			<key>Type</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Debug</string>
+			<key>Message</key>
+			<string>target.captureRectWithName("{origin:{x:62.00,y:409.00}, size:{height:603.00,width:339.00}}", "screenShot0")</string>
+			<key>Timestamp</key>
+			<date>2013-11-07T14:28:46Z</date>
+			<key>Type</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Screenshot</string>
+			<key>Message</key>
+			<string>screenShot0</string>
+			<key>Screenshot</key>
+			<string>59E1A3E3-5B62-4635-92C8-E183D2971B1B</string>
+			<key>Timestamp</key>
+			<date>2013-11-07T14:28:46Z</date>
+			<key>Type</key>
+			<integer>8</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Debug</string>
+			<key>Message</key>
+			<string>target.captureRectWithName("{origin:{x:62.00,y:409.00}, size:{height:603.00,width:339.00}}", "screenShot1")</string>
+			<key>Timestamp</key>
+			<date>2013-11-07T14:28:46Z</date>
+			<key>Type</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Screenshot</string>
+			<key>Message</key>
+			<string>screenShot1</string>
+			<key>Screenshot</key>
+			<string>22A41191-28C9-4F86-978F-84AE091D4884</string>
+			<key>Timestamp</key>
+			<date>2013-11-07T14:28:47Z</date>
+			<key>Type</key>
+			<integer>8</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Default</string>
+			<key>Message</key>
+			<string>exitCode: 0</string>
+			<key>Timestamp</key>
+			<date>2013-11-07T14:28:50Z</date>
+			<key>Type</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Default</string>
+			<key>Message</key>
+			<string>stdout: Run 14</string>
+			<key>Timestamp</key>
+			<date>2013-11-07T14:28:50Z</date>
+			<key>Type</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Default</string>
+			<key>Message</key>
+			<string>stderr: </string>
+			<key>Timestamp</key>
+			<date>2013-11-07T14:28:50Z</date>
+			<key>Type</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Default</string>
+			<key>Message</key>
+			<string>Path of captured images: integration/tmp/results/Run 14/screenShot0.png</string>
+			<key>Timestamp</key>
+			<date>2013-11-07T14:28:50Z</date>
+			<key>Type</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Default</string>
+			<key>Message</key>
+			<string>Comparing the image with the reference one..240.116 (0.00366394)</string>
+			<key>Timestamp</key>
+			<date>2013-11-07T14:28:51Z</date>
+			<key>Type</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Pass</string>
+			<key>Message</key>
+			<string>Video is playing.</string>
+			<key>Timestamp</key>
+			<date>2013-11-07T14:28:51Z</date>
+			<key>Type</key>
+			<integer>5</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Pass</string>
+			<key>Message</key>
+			<string>Test video playing</string>
+			<key>Timestamp</key>
+			<date>2013-11-07T14:28:51Z</date>
+			<key>Type</key>
+			<integer>5</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Pass</string>
+			<key>Message</key>
+			<string>Test Tab bar</string>
+			<key>Timestamp</key>
+			<date>2013-11-07T14:28:51Z</date>
+			<key>Type</key>
+			<integer>4</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Default</string>
+			<key>Message</key>
+			<string>Select the Tabellen tab.</string>
+			<key>Timestamp</key>
+			<date>2013-11-07T14:28:53Z</date>
+			<key>Type</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Debug</string>
+			<key>Message</key>
+			<string>target.frontMostApp().tabBar().buttons()["Tabellen"].tap()</string>
+			<key>Timestamp</key>
+			<date>2013-11-07T14:28:54Z</date>
+			<key>Type</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Default</string>
+			<key>Message</key>
+			<string>Select the Bundesliga live tab.</string>
+			<key>Timestamp</key>
+			<date>2013-11-07T14:28:58Z</date>
+			<key>Type</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Debug</string>
+			<key>Message</key>
+			<string>target.frontMostApp().tabBar().buttons()["Bundesliga live"].tap()</string>
+			<key>Timestamp</key>
+			<date>2013-11-07T14:28:58Z</date>
+			<key>Type</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Pass</string>
+			<key>Message</key>
+			<string>Test Tab bar</string>
+			<key>Timestamp</key>
+			<date>2013-11-07T14:29:02Z</date>
+			<key>Type</key>
+			<integer>5</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Pass</string>
+			<key>Message</key>
+			<string>Test matches count</string>
+			<key>Timestamp</key>
+			<date>2013-11-07T14:29:02Z</date>
+			<key>Type</key>
+			<integer>4</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Default</string>
+			<key>Message</key>
+			<string>Select the Spieltage/Videos tab.</string>
+			<key>Timestamp</key>
+			<date>2013-11-07T14:29:04Z</date>
+			<key>Type</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Debug</string>
+			<key>Message</key>
+			<string>target.frontMostApp().tabBar().buttons()["Spieltage/Videos"].tap()</string>
+			<key>Timestamp</key>
+			<date>2013-11-07T14:29:04Z</date>
+			<key>Type</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Default</string>
+			<key>Message</key>
+			<string>Assert that the count of matches is : 9</string>
+			<key>Timestamp</key>
+			<date>2013-11-07T14:29:08Z</date>
+			<key>Type</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Pass</string>
+			<key>Message</key>
+			<string>Test matches count</string>
+			<key>Timestamp</key>
+			<date>2013-11-07T14:29:08Z</date>
+			<key>Type</key>
+			<integer>5</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Pass</string>
+			<key>Message</key>
+			<string>Test teams count</string>
+			<key>Timestamp</key>
+			<date>2013-11-07T14:29:08Z</date>
+			<key>Type</key>
+			<integer>4</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Default</string>
+			<key>Message</key>
+			<string>Select the Tabellen tab.</string>
+			<key>Timestamp</key>
+			<date>2013-11-07T14:29:10Z</date>
+			<key>Type</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Debug</string>
+			<key>Message</key>
+			<string>target.frontMostApp().tabBar().buttons()["Tabellen"].tap()</string>
+			<key>Timestamp</key>
+			<date>2013-11-07T14:29:10Z</date>
+			<key>Type</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Pass</string>
+			<key>Message</key>
+			<string>Test teams count</string>
+			<key>Timestamp</key>
+			<date>2013-11-07T14:29:12Z</date>
+			<key>Type</key>
+			<integer>5</integer>
+		</dict>
+	</array>
+	<key>version</key>
+	<integer>2</integer>
+</dict>
+</plist>
