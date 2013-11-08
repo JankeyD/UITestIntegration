@@ -245,6 +245,55 @@ function testInfoViewControllerContent(menuItem, refNavigationItem, refHeader) {
 	});
 }
 
+/**
+ * Function testBundesligaLiveVCStructure  - checks the structure on testBundesligaLiveVCStructure view controller
+ * 
+ */
+
+function testBundesligaLiveVCStructure() {
+	test("Test the structure of BundesligaLive VC", function(target, app) {
+		
+		target.delay(2);
+
+		//-- Tap on Bundesliga live tab 
+		testTabBarItem(app, "Bundesliga live", "Bundesliga live");
+		
+		target.delay(2);	
+		
+		assertWindow({
+			navigationBar: { name: "Bundesliga live" },
+		    buttons: [
+				{ name : "Play Icon Large" },
+				{ isValid : 1 }
+			],
+			collectionViews: [
+				{ 
+					cells: [
+	  		          { isValid: 1 },
+	  		          { isValid: 1 },
+	  				  { isValid: 1 },
+	  				  { isValid: 1 },
+	  				  { isValid: 1 },
+	  		          { isValid: 1 },
+	  		          { isValid: 1 },
+	  				  { isValid: 1 },
+	  				  { isValid: 1 },
+	  				  { isValid: 1 }
+	  		        ]
+				}
+			],
+			scrollViews: [
+				{
+					collectionViews: [
+						{ isValid: 1 }
+					]
+				}
+			]
+		});
+
+	});
+}
+
 
 
 

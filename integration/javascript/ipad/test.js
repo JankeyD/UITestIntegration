@@ -19,3 +19,5 @@
 //testInfoViewControllerContent("Nutzungsbedingungen", "Nutzungsbedingungen", "Nutzungsbedingungen MobileTV");
 
 //testInfoViewControllerContent("Jugendschutz", "Jugendschutz", "Jugendschutz: Bewusster Umgang mit dem Internet");
+
+//testBundesligaLiveVCStructure();
