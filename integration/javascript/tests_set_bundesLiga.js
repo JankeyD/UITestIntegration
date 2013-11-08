@@ -136,30 +136,44 @@ function testTeamsCount(refCount) {
 /**
  * Function testErinnerungen  - tests setting on / off Errinerungen
  * 
- * @param
+ * @param - list of desired matches to set the reminder, e.g. testErinnerungen(0,3,4);
  */
 
 function testErinnerungen() {
-	test("Test Erinnerungen", function(target, app) {
 	
+	var args = arguments;
+	
+	test("Test Erinnerungen", function(target, app) {
+		
 		target.delay(2);
 
 		//-- Tap on Spieltage/Videos tab
 		testTabBarItem(app, "Spieltage/Videos", "12. Spieltag");
-		
+
 		target.delay(2);
 		
 		//-- Tap on Erinnerungen icon
 		var window = app.mainWindow();
-		window.collectionViews()[0].cells()[1].buttons()[0].tap();
-
-		//target.delay(2);
+		var collectionView = window.collectionViews()[0];
+		
+		for (var i = 0; i < args.length; i++) 
+		{	
+			collectionView.cells()[args[i]].buttons()[0].tap();
+			target.delay(2);
+		}
+		
+		target.delay(2);
 
 		//-- Tap on Erinnerungen tab
 		testTabBarItem(app, "Erinnerungen", "Erinnerungen");
+		
+		//-- Assert that the count of Erinnerungen is correct
+		UIALogger.logMessage("Assert that the count of Erinnerunge is : " + args.length);
+		var window = app.mainWindow();
+		assertEquals(args.length, window.tableViews()[0].cells().length);
 
-		target.delay(5);
-
+		target.delay(3);
+				
 		//-- Tap on Spieltage/Videos tab
 		testTabBarItem(app, "Spieltage/Videos", "12. Spieltag");
 		

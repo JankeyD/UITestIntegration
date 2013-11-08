@@ -10,4 +10,4 @@
 
 //testTeamsCount(18);
 
-testErinnerungen();
+testErinnerungen(3,2,1,5);
