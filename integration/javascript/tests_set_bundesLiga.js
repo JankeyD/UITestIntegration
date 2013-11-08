@@ -182,6 +182,69 @@ function testErinnerungen() {
 	});
 }
 
+/**
+ * Function testInfoViewControllerStructure  - checks the structure on Info view controller
+ * 
+ */
+
+function testInfoViewControllerStructure() {
+	test("Test the structure on Info VC", function(target, app) {
+	
+		target.delay(2);
+
+		//-- Tap on Spieltage/Videos tab 
+		testTabBarItem(app, "Info", "InfoTableView");
+		
+		target.delay(2);	
+		
+		assertWindow({
+		    tableViews: [
+	      		{
+					cells: [
+	  		          { name: "Nutzungsbedingungen" },
+	  		          { name: "FAQ" },
+	  				  { name: "Datenschutz" },
+	  				  { name: "Jugendschutz" },
+	  				  { name: "Impressum" }
+	  		        ]
+	      	  	},
+				{ name: "Empty list" }
+			]
+		});
+
+	});
+}
+
+/**
+ * Function testInfoViewControllerContent  - checks the content on Info view controller for individual menu items 
+ * 
+ */
+
+function testInfoViewControllerContent(menuItem, refNavigationItem, refHeader) {
+	test("Test the content on Info VC", function(target, app) {
+	
+		target.delay(2);
+
+		//-- Tap on Spieltage/Videos tab 
+		testTabBarItem(app, "Info", "InfoTableView");
+		
+		target.delay(2);	
+		
+		//-- Tap on menu item
+		var window = app.mainWindow();
+		window.tableViews()[0].cells()[menuItem].tap();
+			
+		target.delay(2);	
+		
+		var navigationItem = window.navigationBars()[1].name();
+		var header = window.tableViews()[1].cells()[0].webViews()[0].staticTexts()[0].name();
+		
+		assertEquals(refNavigationItem, navigationItem);
+		assertEquals(refHeader, header);
+		
+	});
+}
+
 
 
 

@@ -10,4 +10,12 @@
 
 //testTeamsCount(18);
 
-testErinnerungen(3,2,1,5);
+//testErinnerungen(3,2,1,5);
+
+//testInfoViewControllerStructure();
+
+//testInfoViewControllerContent("FAQ", "FAQ", "Welche Vorraussetzungen muss ich erfüllen, um die MobileTV-App nutzen zu können? Wie empfängt man MobileTV?");
+
+//testInfoViewControllerContent("Nutzungsbedingungen", "Nutzungsbedingungen", "Nutzungsbedingungen MobileTV");
+
+//testInfoViewControllerContent("Jugendschutz", "Jugendschutz", "Jugendschutz: Bewusster Umgang mit dem Internet");
