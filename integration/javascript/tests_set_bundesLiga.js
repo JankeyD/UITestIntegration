@@ -136,10 +136,12 @@ function testTeamsCount(refCount) {
 /**
  * Function testErinnerungen  - tests setting on / off Errinerungen
  * 
+ * @param - tabBarName - the desired view controller
+ * @param - navigationBarItem - expected navigation bar item
  * @param - list of desired matches to set the reminder, e.g. testErinnerungen(0,3,4);
  */
 
-function testErinnerungen() {
+function testErinnerungen(tabBarName, navigationBarItem) {
 	
 	var args = arguments;
 	
@@ -148,7 +150,7 @@ function testErinnerungen() {
 		target.delay(2);
 
 		//-- Tap on Spieltage/Videos tab
-		testTabBarItem(app, "Spieltage/Videos", "12. Spieltag");
+		testTabBarItem(app, tabBarName, navigationBarItem);
 
 		target.delay(2);
 		
@@ -156,7 +158,7 @@ function testErinnerungen() {
 		var window = app.mainWindow();
 		var collectionView = window.collectionViews()[0];
 		
-		for (var i = 0; i < args.length; i++) 
+		for (var i = 2; i < args.length; i++) 
 		{	
 			collectionView.cells()[args[i]].buttons()[0].tap();
 			target.delay(2);
@@ -170,12 +172,12 @@ function testErinnerungen() {
 		//-- Assert that the count of Erinnerungen is correct
 		UIALogger.logMessage("Assert that the count of Erinnerunge is : " + args.length);
 		var window = app.mainWindow();
-		assertEquals(args.length, window.tableViews()[0].cells().length);
+		assertEquals(args.length - 2, window.tableViews()[0].cells().length);
 
 		target.delay(3);
 				
 		//-- Tap on Spieltage/Videos tab
-		testTabBarItem(app, "Spieltage/Videos", "12. Spieltag");
+		testTabBarItem(app, tabBarName, navigationBarItem);
 		
 		target.delay(3);
 

@@ -10,7 +10,9 @@
 
 //testTeamsCount(18);
 
-//testErinnerungen(3,2,1,5);
+//testErinnerungen("Spieltage/Videos", "13. Spieltag", 3,2,1,5);
+
+//testErinnerungen("Bundesliga live", "Bundesliga live", 3,2,1,5);
 
 //testInfoViewControllerStructure();
 
