@@ -34,7 +34,7 @@ function testVideoPlaying() {
 		var window = app.mainWindow();
 		window.buttons()["Play Icon Large"].tap();
 
-		target.delay(5);
+		target.delay(8);
 
 		var video = window.elements()["Video"];
 	
@@ -88,7 +88,7 @@ function testMatchesCount(refCount) {
 		target.delay(2);
 
 		//-- Tap on Spieltage/Videos tab 
-		testTabBarItem(app, "Spieltage/Videos", "12. Spieltag");
+		testTabBarItem(app, "Spieltage/Videos", "13. Spieltag");
 		
 		target.delay(2);	
 			
@@ -170,7 +170,7 @@ function testErinnerungen(tabBarName, navigationBarItem) {
 		testTabBarItem(app, "Erinnerungen", "Erinnerungen");
 		
 		//-- Assert that the count of Erinnerungen is correct
-		UIALogger.logMessage("Assert that the count of Erinnerunge is : " + args.length);
+		UIALogger.logMessage("Assert that the count of Erinnerunge is : " + args.length - 2);
 		var window = app.mainWindow();
 		assertEquals(args.length - 2, window.tableViews()[0].cells().length);
 
@@ -292,6 +292,45 @@ function testBundesligaLiveVCStructure() {
 				}
 			]
 		});
+
+	});
+}
+
+
+/**
+ * Function testSwitchLeague  - tests if the content is changed after click on segmented controll item
+ *
+ * @param - tabBarName - the desired view controller
+ * @param - navigationBarItem - expected navigation bar item
+ */
+
+function testSwitchLeague(tabBarName, navigationBarItem) {
+	test("Test league switching", function(target, app) {
+	
+		target.delay(2);
+
+		//-- Tap on Spieltage/Videos tab 
+		testTabBarItem(app, tabBarName, navigationBarItem);
+		
+		target.delay(2);	
+			
+		//-- Tap on button at segmented controller
+		var window = app.mainWindow();
+		
+		window.navigationBar().segmentedControls()[0].buttons()[1].tap();
+		
+		target.delay(2);
+	
+		if (! window.isValid()) {
+ 	   		UIALogger.logFail("Could not locate window view");    
+		} else {
+			var rect = window.rect();
+			if (isPlaying(target, rect)) {
+				UIALogger.logPass("Content changed.");
+			} else {
+				UIALogger.logFail("Content not changed.");
+			}
+		}		
 
 	});
 }
